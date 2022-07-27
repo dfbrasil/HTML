@@ -8,12 +8,14 @@ header{
 }
 
 *{
-    color: #343434;;
+    color: #343434;
+    margin: none;
+    text-decoration: none;
 }
 
 main{
     width: 1200px;
-    margin-left: 150px;
+    margin: auto;
 }
 
 nav{
@@ -35,11 +37,8 @@ nav a:hover{
 }
 
 body {
-    width: 1200px;
     font-family: 'Source Sans Pro', sans-serif;
     word-spacing: 3px;
-    margin: auto;
-    text-align: auto;
 }
 
 body h1{
@@ -76,10 +75,18 @@ a {
     text-decoration: none;
 }
 
+.a_link{
+    font-size: 25px;
+    color: #343434;
+}
+.a_link:hover{
+    opacity: 0.8;
+}
+
 .container{
     display: flex;
     justify-content: center;
-   }
+}
 
 footer{
     background-color: #16165F;
